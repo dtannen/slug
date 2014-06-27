@@ -14,7 +14,7 @@ import (
 
 var (
 	// Replace non-alphanumeric characters with this byte.
-	Replacement = '_'
+	Replacement = '-'
 
 	// The "safe" set of characters.
 	alphanum = &unicode.RangeTable{
